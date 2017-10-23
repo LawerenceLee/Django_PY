@@ -1,2 +1,6 @@
 django1_11_env
 .ipynb_checkpoints/django-checkpoint.ipynb
+learning_site/learning_site/__pycache__/wsgi.cpython-36.pyc
+learning_site/learning_site/__pycache__/urls.cpython-36.pyc
+learning_site/learning_site/__pycache__/settings.cpython-36.pyc
+learning_site/learning_site/__pycache__/__init__.cpython-36.pyc
