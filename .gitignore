@@ -16,3 +16,14 @@ learning_site/courses/migrations/__pycache__/0002_step.cpython-36.pyc
 learning_site/courses/migrations/__pycache__/0003_auto_20171029_0054.cpython-36.pyc
 learning_site/courses/__pycache__/tests.cpython-36.pyc
 .DS_Store
+codechall_project/karaoke/karaoke/__pycache__/__init__.cpython-36.pyc
+codechall_project/karaoke/karaoke/__pycache__/settings.cpython-36.pyc
+codechall_project/karaoke/karaoke/__pycache__/urls.cpython-36.pyc
+codechall_project/karaoke/karaoke/__pycache__/views.cpython-36.pyc
+codechall_project/karaoke/karaoke/__pycache__/wsgi.cpython-36.pyc
+codechall_project/karaoke/songs/__pycache__/__init__.cpython-36.pyc
+codechall_project/karaoke/songs/__pycache__/admin.cpython-36.pyc
+codechall_project/karaoke/songs/__pycache__/tests.cpython-36.pyc
+codechall_project/karaoke/songs/__pycache__/urls.cpython-36.pyc
+codechall_project/karaoke/songs/__pycache__/views.cpython-36.pyc
+codechall_project/karaoke/songs/migrations/__pycache__/0001_initial.cpython-36.pyc
