@@ -14,3 +14,5 @@ learning_site/courses/__pycache__/urls.cpython-36.pyc
 learning_site/courses/__pycache__/views.cpython-36.pyc
 learning_site/courses/migrations/__pycache__/0002_step.cpython-36.pyc
 learning_site/courses/migrations/__pycache__/0003_auto_20171029_0054.cpython-36.pyc
+learning_site/courses/__pycache__/tests.cpython-36.pyc
+.DS_Store
