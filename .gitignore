@@ -1,4 +1,3 @@
-django1_11_env
 .ipynb_checkpoints/django-checkpoint.ipynb
 learning_site/learning_site/__pycache__/wsgi.cpython-36.pyc
 learning_site/learning_site/__pycache__/urls.cpython-36.pyc
@@ -27,3 +26,7 @@ codechall_project/karaoke/songs/__pycache__/tests.cpython-36.pyc
 codechall_project/karaoke/songs/__pycache__/urls.cpython-36.pyc
 codechall_project/karaoke/songs/__pycache__/views.cpython-36.pyc
 codechall_project/karaoke/songs/migrations/__pycache__/0001_initial.cpython-36.pyc
+.ipynb_checkpoints/django_basics-checkpoint.ipynb
+.ipynb_checkpoints/Django_templates-checkpoint.ipynb
+__pycache__
+.vscode/
