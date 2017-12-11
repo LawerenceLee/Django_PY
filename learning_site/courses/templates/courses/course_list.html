@@ -1,6 +1,11 @@
 {% extends "layout.html" %}
+{% load static from staticfiles %}
 
 {% block title %}Available Courses{% endblock %}
+
+{% block static %}
+<link rel='stylesheet' href="{% static 'courses/css/courses.css' %}">
+{% endblock %}
 
 {% block content %}
 <div class="cards">
@@ -8,9 +13,15 @@
     <div class="card">
         <header><a href="{% url 'courses:detail' pk=course.pk %}">{{ course.title }}</a></header>
         <div class="card-copy">
-            {{ course.description }}
+            {% if course.description|wordcount <= 5 %}
+                {{ course.description }}
+            {% else %}
+                {{ course.description|truncatewords:5 }}
+                <a href="{% url 'courses:detail' pk=course.pk %}">Read More</a>
+            {% endif %}
+            <div>Created on: {{ course.created_at|date:"F j, Y" }}</div>
         </div>
     </div>    
     {% endfor %}
-</div>
+    <div>Have Questions? Contact Us!{{ email|urlize }}</div>
 {% endblock %}
